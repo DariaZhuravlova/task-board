@@ -8,10 +8,9 @@
     "skipLibCheck": true,
 
     /* Absolute imports */
-    "baseUrl": ".",
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ]
     },
 
