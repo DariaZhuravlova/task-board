@@ -1,11 +1,6 @@
-import {AppRouter} from "@/app/config/route/AppRouter";
-// styles
-import styles from "./App.module.scss";
+import {RouterProvider} from "react-router-dom";
+import {router} from "@/app/config/route/router";
 
 export const App = () => {
-    return (
-        <div className={styles.App}>
-            <AppRouter />
-        </div>
-    );
+    return <RouterProvider router={router} />;
 };
