@@ -56,5 +56,4 @@ npm run lint
 - `vite` - Build tool
 - `@vitejs/plugin-react` - React plugin для Vite
 - `typescript` - TypeScript
-- `sass` - SCSS preprocessor
 - `eslint` - Линтер
